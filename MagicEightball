@@ -1,0 +1,36 @@
+let userName = "Damian";
+if (userName !== "") {
+  console.log("Hello" + " " + userName + " " + "!");
+} else {
+  console.log("Hello stranger!");
+}
+
+let userQuestion = "what is Your favorite color ?!";
+console.log(userName + " " + "asked," + " " + userQuestion);
+randomNumber = Math.floor(Math.random() * 8);
+let eightBall = "";
+switch (randomNumber) {
+  case 0:
+    eightBall = 'Blue';
+    break;
+  case 1:
+    eightBall = "Yellow";
+    break;
+  case 2:
+    eightBall = "Red";
+    break;
+  case 3:
+    eightBall = 'Green';
+  case 4:
+    eightBall = "Brown";
+    break;
+  case 5:
+   eightBall = "Black";
+    break;
+  case 6:
+   eightBall = "White";
+    break;
+  case 7:
+    eightBall = "Pink";
+}
+console.log('The eightball answered:' + eightBall);
