@@ -1,0 +1,12 @@
+//funkcja wywołania przypomnienia
+function getReminder ()
+{
+  console.log("Water the plants")
+}
+
+//Hiszpańskie przywitanie
+
+function greetInSpanish()
+{
+  console.log("Buenas tardes.")
+}
