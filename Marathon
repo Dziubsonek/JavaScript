@@ -1,0 +1,41 @@
+let raceNumber = Math.floor(Math.random() * 1000);
+
+const runnername = "Damian";
+let timeOfRegistration = 12;
+let runnerAge = 29;
+
+console.log(
+  "Witaj" + " " + runnername + " " + "zostałeś przydzielony do grupy:"
+);
+switch (timeOfRegistration) {
+  case (timeOfRegistration = 9):
+    console.log("Wczesna grupa dorosłych");
+    break;
+  case (timeOfRegistration = 11):
+    console.log("Późna grupa dorosłych");
+    break;
+  case (timeOfRegistration = 12):
+    console.log("Młodzież do lat 18");
+    break;
+}
+if (runnerAge >= 18 && timeOfRegistration == 9) {
+  console.log("Nadaliśmy Ci numer startowy : " + (raceNumber + 1000));
+} else {
+  console.log("Nadaliśmy Ci numer startowy : " + raceNumber)};
+  
+
+
+
+
+if (runnerAge >= 18 && timeOfRegistration == 9)
+{ 
+  console.log("Twoja grupa zaczyna bieg o godzinie 9:30")
+} 
+else if (runnerAge >= 18 && timeOfRegistration == 11)
+{
+   console.log ("Twoja grupa zaczyna bieg o godzinie 11:30")
+}
+else
+{
+console.log("Twój bieg Zaczyna się o godzinie 12:30")
+}
